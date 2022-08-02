@@ -1,0 +1,31 @@
+###
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+"id":"9260cf14-7119-4b7c-869f-5697c2310308",
+"sortOrder":"qwe"
+
+}
+
+
+###
+GET http://localhost:8080/read/9260cf14-7119-4b7c-869f-5697c2310308
+
+<> 2022-08-02T181104.200.json
+
+
+###
+PUT http://localhost:8080/update
+Content-Type: application/json
+
+{
+"id":"9260cf14-7119-4b7c-869f-5697c2310308",
+"sortOrder":"456456"
+
+}
+
+###
+DELETE http://localhost:8080/delete/9260cf14-7119-4b7c-869f-5697c2310308
+
+<> 2022-08-02T181140.500.json
